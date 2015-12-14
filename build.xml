@@ -1,4 +1,4 @@
-<project name="restful_spring_project" basedir="." default="main">
+<project name="mvc_spring_project" basedir="." default="main">
 
 	<!-- deploy config -->
     <property name="src.dir"     value="src"/>
