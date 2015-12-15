@@ -16,6 +16,11 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class HelloController {
 
 
+	@RequestMapping(value = "/", method = RequestMethod.GET)
+	public String index(ModelMap model){
+		  //model.addAttribute("message", "Hello Spring MVC Framework!");
+	      return "index";
+	}
 	@RequestMapping(value = "/hello", method = RequestMethod.GET)
 	public String printTest(ModelMap model){
 		  model.addAttribute("message", "Hello Spring MVC Framework!");

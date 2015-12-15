@@ -1,4 +1,5 @@
 
+WebContent/WEB-INF/lib
 deploy
 *.war
 tmp
